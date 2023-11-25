@@ -2,7 +2,7 @@ import streamlit as st
 import os, re
 from datetime import date, datetime
 from pathlib import Path
-import utility
+from utility import *
 
 Path('./users').mkdir(parents=True, exist_ok=True)
 
